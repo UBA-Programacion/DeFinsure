@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeFinsure: Tu Seguridad, Nuestro Protocolo</title>
+  
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+
+    <!DOCTYPE html>
+<html lang="es">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom sand color palette */
+        :root {
+            --sand-light: #f8f4e6;
+            --sand-medium: #e6d7b8;
+            --sand-dark: #d6c6a5;
+            --sand-accent: #c4b28a;
+        }
+        
+        body {
+            
+            background: linear-gradient(135deg, var(--sand-light) 0%, var(--sand-medium) 100%);
+           
+        }
+        
+        .roadmap-section {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, var(--sand-light) 0%, var(--sand-medium) 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .roadmap-image-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1),
+                        0 8px 16px rgba(0, 0, 0, 0.05),
+                        inset 0 2px 4px rgba(255, 255, 255, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .roadmap-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+        
+        .roadmap-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #5a4c39;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: #7a6b58;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .roadmap-section {
+                padding: 2rem 0;
+            }
+            
+            .roadmap-image-container {
+                padding: 1rem;
+                border-radius: 16px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+        
+        /* Decorative elements */
+        .sand-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+                             radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.1) 2px, transparent 2px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: -1;
+        }
+    </style>
+
+<link rel="stylesheet" href="style.css" />
+
+    <!-- Opcional: Font Awesome para iconos de redes sociales -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="code.css" />
+    
+  </head>
+
+  <body>
+    <header class="hero" style="height: auto">
+      <div class="container">
+        <div class="logo">
+          <img src="2.png" height="100%" weight="auto" alt="DeFinsure Logo" />
+          <h1>DeFinsure</h1>
+        </div>
+        
+        <p class="subtitle">
+          Un protocolo que integra DeFi con IoT para ofrecer seguros mutuales
+          transparentes y eficientes.
+        </p>
+        <div class="hero-cta">
+          <a href="#simulacion" class="btn btn-primary"
+            >Simula tu Cobertura y Rendimientos</a
+          >
+          <a href="#introduccion" class="btn btn-secondary"
+            >Descubre DeFinsure</a
+          >
+        </div>
+        <div class="hero-video">
+          <!-- iframe embebido para mostrar SeguroDeFi -->
+          <iframe
+            width="100%"
+            height="600"
+            src="https://uba-programacion.github.io/SeguroDeFi/"
+            frameborder="0"
+            allowfullscreen
+            title="SeguroDeFi - Plataforma de Seguros Descentralizados"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="introduccion" class="section intro-section">
+        <div class="container">
+          <p class="subtitle">
+          <h2 style="font-size: 3rem; margin-top:-100px" >DeFinsure vs. Seguros Tradicionales</h2><br>
+          <p style="font-weight: bold;">
+            Ventajas a la vista: reduce costos, acelera indemnizaciones, elimina
+            intermediarios, usa datos IoT verificables y gobernanza comunitaria,
+            aumentando transparencia y eficiencia
+          </p><br><br>
+
+          <h3 style="font-size: 2rem;">Objetivos Principales</h3>
+          <ul>
+            <li>
+              <strong>Democratizar el Acceso:</strong> Eliminar barreras
+              geográficas y financieras mediante IoT accesible y depósitos
+              multi-activo.
+            </li>
+            <li>
+              <strong>Mejorar la Transparencia:</strong> Todos los procesos
+              (depósitos, validaciones, pagos) son auditables en blockchain.
+            </li>
+            <li>
+              <strong>Mitigar Riesgos:</strong> Estructura anti-gaming y
+              mecanismos de emergencia para resiliencia.
+            </li>
+            <li>
+              <strong>Fomentar Sostenibilidad:</strong> Yields orgánicos y
+              ajustes gobernados basados en datos reales para un crecimiento
+              controlado.
+            </li>
+            <li>
+              <strong>Seguro Descentralizado:</strong> Ofrece coberuras
+              sinteticas contra riesgos reales,
+            </li>
+            <li>
+              <strong>Coberturas de Seguro:</strong> Contra daños climáticos,
+              robos, fallos en activos.
+            </li>
+            <li>
+              <strong>Controles:</strong> En tiempo real, con sensores y
+              comunicacion aun sin energia.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="section how-it-works-section bg-light">
+        <div class="container">
+          <h2 style="font-size: 4rem; font-weight: bold;">Soluciones Innovadoras de DeFinsure</h2>
+          <p class="subtitle">
+            Un pool cooperativo, validación inteligente y gobernanza justa.
+          </p>
+
+          <div class="feature-grid">
+            <div class="feature-item">
+              <h3 style="font-size: 2rem;">
+                1. El Pool Mutualizado con Tramos Fijos y Cobertura Sintética
+              </h3>
+              <p>
+                DeFinsure es un protocolo on-chain que permite a usuarios
+                depositar liquidez en un pool único dividido en tres tramos
+                fijos de riesgo. Junior 45%, Medio 35%, Senior 20%. Se aceptan
+                coins, stablecoins y tokens $SOS (nativo del protocolo). Realize
+                gobernanza sobre las polizas.
+              </p>
+
+              <p>
+                <strong>Beneficios:</strong> Stakea tus LP-tokens para ganar el
+                Token nativo $SOS. O puede crear xSOS y para usarlos o venderlos
+                como polizas.
+              </p>
+
+              <div class="icon-placeholder">
+                <i class="fas fa-coins"></i> <i class="fas fa-layer-group"></i>
+                <i class="fas fa-thermometer-half"></i>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <h3 style="font-size: 2rem;">
+                2. Integración Híbrida de IoT: Validación Automatizada y
+                Resiliente
+              </h3>
+              <p>
+                Integramos una red híbrida de sensores IoT (LoRa mesh o Helium)
+                con oráculos (Chainlink/Band) para validar siniestros en tiempo
+                real. El consenso requiere al menos 50% de fuentes coincidentes
+                (IoT, oráculos, APIs oficiales).
+              </p>
+              <p>
+                <strong>Beneficios:</strong> Automatización, alta precisión (>
+                80%), redundancia híbrida que mitiga fallos y reducción de
+                disputas.
+              </p>
+              <div class="icon-placeholder">
+                <i class="fas fa-wifi"></i> <i class="fas fa-link"></i>
+                <i class="fas fa-cube"></i>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <h3 style="font-size: 2rem;">
+                3. Gobernanza Humana y Anti-Gaming: Democracia Real con ZK
+                Proofs
+              </h3>
+              <p>
+                La gobernanza usa $SOSve con multiplicadores móviles para
+                mantener ~33.3% de poder por tramo. Requiere KYC híbrido con
+                zero-knowledge proofs ("una persona = un voto"), asegurando
+                equidad real y evitando la captura por "ballenas".
+              </p>
+              <p>
+                <strong>Beneficios:</strong> Inclusión, resistencia a la
+                manipulación y decisiones alineadas con los usuarios reales.
+              </p>
+              <div class="icon-placeholder">
+                <i class="fas fa-balance-scale"></i>
+                <i class="fas fa-users"></i>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <h3 style="font-size: 2rem;">4. Incentivos Alineados y Sostenibilidad</h3>
+              <p>
+                El farming genera yields independientes de pólizas, financiados
+                por emisiones controladas de $SOS y monetización de datos IoT.
+                Esto asegura yields estables incluso con bajo volumen de
+                siniestros.
+              </p>
+              <p>
+                <strong>Beneficios:</strong> Sostenibilidad a largo plazo y
+                atracción de liquidez masiva.
+              </p>
+              <div class="icon-placeholder">
+                <i class="fas fa-leaf"></i> <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="simulacion" class="section simulation-section hero">
+        <div class="container">
+          <h2 style="color: white; font-size: 2rem;">Simula tu Experiencia DeFinsure</h2>
+          <p class="subtitle" style="color: white">
+            Calcula tu Protección y Rendimientos con DeFinsure.
+          </p>
+
+          <div class="simulation-form">
+            <div class="form-group">
+              <label style="font-size: 2rem;">¿Cómo quieres participar en DeFinsure?</label>
+              <div class="radio-group">
+                <input
+                  type="radio"
+                  id="rol-asegurado"
+                  name="rol"
+                  value="asegurado"
+                  checked
+                />
+                <label for="rol-asegurado"
+                  >Quiero Proteger mis Activos (Asegurado)</label
+                >
+                <input
+                  type="radio"
+                  id="rol-liquidez"
+                  name="rol"
+                  value="liquidez"
+                />
+                <label for="rol-liquidez"
+                  >Quiero Aportar Liquidez y Generar Rendimientos (Proveedor de
+                  Liquidez)</label
+                >
+              </div>
+            </div>
+
+            <div id="form-asegurado" class="simulation-role-form">
+              <div class="form-group">
+                <label for="valor-activo"
+                  >Valor del Activo a Cubrir (USD):</label
+                >
+                <input
+                  type="number"
+                  id="valor-activo"
+                  placeholder="Ej: 10000"
+                  min="1"
+                />
+              </div>
+              <div class="form-group">
+                <label for="tipo-riesgo">Tipo de Riesgo:</label>
+                <select id="tipo-riesgo">
+                  <option value="climatico">Daños Climáticos</option>
+                  <option value="robo">Robo</option>
+                  <option value="fallo-activo">Fallo de Activo</option>
+                  <option value="otros">Otros</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" onclick="simulateAsegurado()">
+                Calcular Cobertura
+              </button>
+              <div class="simulation-results" id="results-asegurado">
+                <h4>Resultados de la Simulación:</h4>
+                <p>
+                  <strong
+                    >LP-Tokens Necesarios como Colateral para xSOS:</strong
+                  >
+                  <span id="lp-tokens-asegurado">0</span>
+                </p>
+                <p>
+                  <strong>Costo de Cobertura (en xSOS):</strong>
+                  <span id="costo-xsos">0</span>
+                </p>
+                <p>
+                  <strong>Sensores IoT Requeridos:</strong>
+                  <span id="sensores-iot">Sí, tipo específico</span>
+                </p>
+                <p>
+                  <strong>Proceso de Validación de Siniestro:</strong>
+                  Automático vía IoT y Oráculos (consenso >50% fuentes).
+                </p>
+                <p class="message">
+                  Tu póliza xSOS es transferible y negociable. La validación es
+                  rápida y transparente.
+                </p>
+              </div>
+            </div>
+
+            <div id="form-liquidez" class="simulation-role-form hidden">
+              <div class="form-group">
+                <label for="monto-deposito">Monto a Depositar (USD):</label>
+                <input
+                  type="number"
+                  id="monto-deposito"
+                  placeholder="Ej: 1000"
+                  min="1"
+                />
+              </div>
+              <div class="form-group">
+                <label for="activo-deposito">Activo a Depositar:</label>
+                <select id="activo-deposito">
+                  <option value="sos">$SOS</option>
+                  <option value="usdc">USDC</option>
+                  <option value="usdt">USDT</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="tramo-riesgo">Tramo de Riesgo:</label>
+                <select id="tramo-riesgo">
+                  <option value="junior">Junior (45%)</option>
+                  <option value="medio">Medio (35%)</option>
+                  <option value="senior">Senior (20%)</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" onclick="simulateLiquidez()">
+                Calcular Rendimientos
+              </button>
+              <div class="simulation-results" id="results-liquidez">
+                <h4>Resultados de la Simulación:</h4>
+                <p>
+                  <strong>LP-Tokens Recibidos:</strong>
+                  <span id="lp-tokens-recibidos">0</span>
+                </p>
+                <p>
+                  <strong>Rendimiento Anual Estimado (APR):</strong>
+                  <span id="apr-estimado">10-20%</span>
+                </p>
+                <p>
+                  <strong>Ganancia Anual Estimada (USD):</strong>
+                  <span id="ganancia-anual">0</span>
+                </p>
+                <p>
+                  <strong>Tokens de Gobernanza ($SOSve) Acumulados:</strong>
+                  <span id="sosve-acumulados">0</span>
+                </p>
+                <p class="message">
+                  Tu capital contribuye a la seguridad del pool y te genera
+                  rendimientos pasivos. ¡Participa en la gobernanza!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+    <div class="sand-pattern"></div>
+    
+    <section id="roadmap" class="section roadmap-section w-full min-h-screen flex items-center justify-center">
+        <div class="container">
+            <div class="text-center mb-8">
+                <h1 class="section-title">Nuestra Hoja de Ruta</h1>
+                <p class="section-subtitle">Descubre el camino que seguimos para alcanzar nuestros objetivos y hacer realidad nuestra visión</p>
+            </div>
+            
+            <div class="roadmap-image-container mx-auto max-w-6xl">
+                <div class="relative overflow-hidden rounded-xl">
+                    <img 
+                        src="mp.png" 
+                        alt="Roadmap visual detallado mostrando las fases del proyecto, hitos importantes y cronograma de desarrollo" 
+                        class="roadmap-image"
+                        style="width: 100%; height: auto;"                        
+                    />
+                </div>
+            </div>
+            <br>
+            <p  style="color: rgb(100, 102, 6); font-size: 1.5rem; text-align: center;">
+                "La seguridad de tu futuro es descentralizada. Dale, que el pool te
+                blinda."
+            </p>
+            
+        </div>
+        
+    </section>
+
+    <script>
+        // Smooth scrolling for navigation (if needed)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add subtle animation to the roadmap image
+            const roadmapImage = document.querySelector('.roadmap-image');
+            if (roadmapImage) {
+                setTimeout(() => {
+                    roadmapImage.style.opacity = '1';
+                    roadmapImage.style.transform = 'translateY(0)';
+                }, 300);
+            }
+            
+            // Handle image loading errors gracefully
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                img.addEventListener('error', function() {
+                    this.style.border = '2px dashed #c4b28a';
+                    this.style.padding = '2rem';
+                    this.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+                });
+            });
+            
+            // Add parallax effect to background pattern
+            window.addEventListener('scroll', function() {
+                const pattern = document.querySelector('.sand-pattern');
+                if (pattern) {
+                    const scrolled = window.pageYOffset;
+                    const rate = scrolled * -0.3;
+                    pattern.style.transform = `translateY(${rate}px)`;
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+     
+
+      
+
+      <section id="contacto" class="section contact-section intro-section">
+        <div class="container">
+          <h1 style="color: white; font-size: 2rem;">Conéctate con la Comunidad DeFinsure</h1>
+          <p class="subtitle" style="color: white">
+            ¿Tienes preguntas, ideas o quieres unirte a nuestra misión? <br>¡Estamos
+            aquí para escucharte!
+          </p>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Nombre:</label>
+              <input type="text" id="contact-name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email:</label>
+              <input type="email" id="contact-email" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Mensaje:</label>
+              <textarea id="contact-message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Enviar Mensaje
+            </button>
+          </form>
+
+          <div class="social-links">
+            <a
+              href="https://twitter.com/yourdefinsure"
+              target="_blank"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter" style="color: white"></i
+            ></a>
+            <a
+              href="https://t.me/yourdefinsure"
+              target="_blank"
+              aria-label="Telegram"
+              ><i class="fab fa-telegram-plane" style="color: white"></i
+            ></a>
+            <a
+              href="https://discord.gg/yourdefinsure"
+              target="_blank"
+              aria-label="Discord"
+              ><i class="fab fa-discord" style="color: white"></i
+            ></a>
+            <a
+              href="https://linkedin.com/company/yourdefinsure"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in" style="color: white"></i
+            ></a>
+            <a
+              href="https://github.com/yourdefinsure"
+              target="_blank"
+              aria-label="GitHub"
+              ><i class="fab fa-github" style="color: white"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 4035 DeFinsure. Todos los derechos reservados.</p>
+        <div class="footer-links">
+          <a href="terms.html">Términos y Condiciones</a>
+          <a href="privacy.html">Política de Privacidad</a>
+          <a href="MultipleFiles/WhitePaper DeFinsure.pdf" target="_blank"
+            >Whitepaper</a
+          >
+        </div>
+        
+      </div>
+    </footer>
+
+    <script>
+      // JavaScript para la lógica de la simulación y mostrar/ocultar formularios
+      document.addEventListener("DOMContentLoaded", () => {
+        const rolAseguradoRadio = document.getElementById("rol-asegurado");
+        const rolLiquidezRadio = document.getElementById("rol-liquidez");
+        const formAsegurado = document.getElementById("form-asegurado");
+        const formLiquidez = document.getElementById("form-liquidez");
+
+        function toggleForms() {
+          if (rolAseguradoRadio.checked) {
+            formAsegurado.classList.remove("hidden");
+            formLiquidez.classList.add("hidden");
+          } else {
+            formAsegurado.classList.add("hidden");
+            formLiquidez.classList.remove("hidden");
+          }
+        }
+
+        rolAseguradoRadio.addEventListener("change", toggleForms);
+        rolLiquidezRadio.addEventListener("change", toggleForms);
+
+        // Inicializar el estado de los formularios al cargar la página
+        toggleForms();
+      });
+
+      function simulateAsegurado() {
+        const valorActivo = parseFloat(
+          document.getElementById("valor-activo").value
+        );
+        if (isNaN(valorActivo) || valorActivo <= 0) {
+          alert("Por favor, introduce un valor de activo válido.");
+          return;
+        }
+
+        // Lógica de simulación simplificada (ejemplos)
+        const lpTokensNecesarios = valorActivo * 2; // Ratio 2:1
+        const costoXsos = valorActivo; // 1 xSOS por 1 USD de cobertura
+        const tipoRiesgo = document.getElementById("tipo-riesgo").value;
+        let sensores = "Sí, tipo específico";
+        if (tipoRiesgo === "fallo-activo") {
+          sensores = "No, validación por oráculo de smart contract";
+        }
+
+        document.getElementById("lp-tokens-asegurado").textContent =
+          lpTokensNecesarios.toLocaleString() + " LP-Tokens";
+        document.getElementById("costo-xsos").textContent =
+          costoXsos.toLocaleString() + " xSOS";
+        document.getElementById("sensores-iot").textContent = sensores;
+
+        document.getElementById("results-asegurado").style.display = "block";
+      }
+
+      function simulateLiquidez() {
+        const montoDeposito = parseFloat(
+          document.getElementById("monto-deposito").value
+        );
+        const activoDeposito = document.getElementById("activo-deposito").value;
+        const tramoRiesgo = document.getElementById("tramo-riesgo").value;
+
+        if (isNaN(montoDeposito) || montoDeposito <= 0) {
+          alert("Por favor, introduce un monto de depósito válido.");
+          return;
+        }
+
+        // Lógica de simulación simplificada (ejemplos)
+        const lpTokensRecibidos = montoDeposito; // Ratio 1:1
+        let apr = "10-20%";
+        let gananciaAnual = montoDeposito * 0.15; // Promedio del 15%
+        let sosveAcumulados = montoDeposito * 0.01; // Ejemplo de 1% en SOSve
+
+        if (tramoRiesgo === "junior") {
+          apr = "15-20%";
+          gananciaAnual = montoDeposito * 0.175;
+        } else if (tramoRiesgo === "senior") {
+          apr = "10-12%";
+          gananciaAnual = montoDeposito * 0.11;
+        }
+
+        document.getElementById("lp-tokens-recibidos").textContent =
+          lpTokensRecibidos.toLocaleString() +
+          " LP-" +
+          tramoRiesgo.toUpperCase() +
+          "-" +
+          activoDeposito.toUpperCase();
+        document.getElementById("apr-estimado").textContent = apr;
+        document.getElementById("ganancia-anual").textContent =
+          "$" +
+          gananciaAnual.toLocaleString(undefined, {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+          });
+        document.getElementById("sosve-acumulados").textContent =
+          sosveAcumulados.toLocaleString(undefined, {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+          });
+
+        document.getElementById("results-liquidez").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
